@@ -1,0 +1,8 @@
+.simulator-container .charge-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Add this for smoother animations when charges are moving due to forces */
+.simulator-container .charge-item.animating {
+  transition: none; /* Disable transition during force-based animation */
+}
